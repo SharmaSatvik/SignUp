@@ -1,0 +1,156 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+:root{
+    --bg-color: #e7e7e7;
+    --color: #272727;
+    --primary-color: #468BC4;
+    --secondary-color: #E0F1FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--color);
+    font-family: 'Poppins', 'Verdana', sans-serif;
+}
+
+.main{
+    width: 35%;
+    float: left;
+    height: 100vh;
+}
+
+.logo{
+    font-size: 55px;
+    font-weight: bold;
+    padding: 40px 70px;
+}
+
+.logo .logo-half{
+    color: var(--primary-color);
+}
+
+.side{
+    width: 65%;
+    float: right;
+    height: 100vh;
+    background-image: url('bg_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    background-color: var(--secondary-color);
+    transform: translateX(324px);
+    margin-top: 100px;
+    z-index: 2;
+    width: 400px;
+    height: 500px;
+    box-shadow: -53px 36px 0px rgba(70, 139, 196, 0.5);
+
+}
+
+.sign-in{
+    padding: 45px 45px;
+}
+
+.sign-in form .contents{
+    padding: 20px 2px;
+}
+input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgba(70, 139, 196, 0.4);
+}
+input:focus{
+    border: none;
+}
+button{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 15px;
+    font-size: 18px;
+    color: var(--bg-color);
+    font-weight: 550;
+    display: block;
+    margin: 20px auto;
+    border-radius: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+hr{
+    margin-top: 30px;
+    color: #000;
+}
+
+.or{
+    text-align: center;
+    margin-top: -13px;
+}
+.or>span{
+    background-color: var(--secondary-color);
+}
+
+.flex-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.flexbo{
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.google{background-image: url('icon_google.png');}
+.linkedin{background-image: url('icon_linkedin.png');}
+.github{background-image: url('icon_github.png');}
+
+.heading{
+    text-align: right;
+    color: var(--bg-color);
+    font-size: 70px;
+    padding: 40px 70px;
+    text-shadow: 0px 0px 6px #000;
+}
+.heading>span{color: var(--primary-color);}
+
+.para{
+    color: var(--bg-color);
+    padding-left: 380px;
+    line-height: 30px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.side > button{
+    margin-right: 346px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background: none;
+    border-color: #fff;
+}
+.side > button:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+footer{
+    margin-bottom: 10px;
+    color: #e7e7e7;
+    margin-right: 10px;
+} 
+
